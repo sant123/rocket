@@ -1,5 +1,5 @@
 {
   "tasks": {
-    "start": "deno run --allow-net --allow-read https://deno.land/std@0.209.0/http/file_server.ts src"
+    "start": "deno run -NR jsr:@std/http/file-server src"
   }
 }
